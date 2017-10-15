@@ -4,27 +4,127 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <meta name="robots" content="index, follow">
+    <title>About</title>
+    <link rel="icon" href="img/favicon.gif" type="image/gif" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/foundation.css">
+    <!-- <link href="form/css/structure.css" rel="stylesheet"> <!-- CSS - Woofoo -->
+    <link href="form/css/form.css" rel="stylesheet"> <!-- CSS - Woofoo -->
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/about.css">
   </head>
   <body id="aboutpage">
+    <!-- App Header -->
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell small-12 medium-4">
+          <div class="app-header-logo">MARYAM HADI</div>
+        </div>
+        <div class="cell small-12 medium-8">
+          <nav class="app-header-navigation">
+            <a class="app-header-link" href="index.html">Home</a>&nbsp;&nbsp;
+            <a class="app-header-link" href="portfolio.html">Portfolio</a>&nbsp;&nbsp;
+            <a class="app-header-link" href="about.html">About</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell small-12 medium-6">
+          <img src="img/photographer.jpg"/>
+        </div>
+        <div class="cell small-12 medium-6">
+          <div class="about-content">
+            <div class="about-title">MARYAM HADI</div>
+            <div class="about-description">
+              Maryam Hadi is a San Francisco based photographer with a passion for
+              aesthetics and creating visually pleasing works of art. Specializing
+              in portraiture, Maryam Hadi Photography offers a wide array of
+              photography services from capturing the first moments of a life-long
+              union at weddings, to the first moments of the life of your little one.
+            </div>
+            <a class="about-button" href="#container">GET A QUOTE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
-        <nav class="mainnavigation cell small-12">
-          <h1>logo</h1>
-        <ul>
-          <li>home</li>
-          <li>portfolio</li>
-          <li>about</li>
-        </ul>
-      </nav>
-    </div> <!--closes the container -->
+        <div class="cell small-12">
+          <div id="container" class="ltr">
 
+          <h1 id="logo"></h1>
+
+          <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://maryamali126.wufoo.com/forms/z178fol5058pd14/#public">
+            <header id="header" class="info">
+              <h2 class="0">Get a Quote!</h2>
+              <div class="0">This is my form. Please fill it out. It's awesome!</div>
+            </header>
+            <ul>
+              <li id="foli1" class="notranslate">
+                <label class="desc" id="title1" for="Field1">Name</label>
+                <div>
+                  <input id="Field1" name="Field1" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup=""       placeholder="Jane Doe" />
+                </div>
+              </li>
+              <li id="foli2" class="notranslate">
+                <label class="desc" id="title2" for="Field2">Email</label>
+                <div>
+                  <input id="Field2" name="Field2" type="text" class="field text medium" value="" maxlength="255" tabindex="2" onkeyup=""       placeholder="janedoe@email.com" />
+                </div>
+              </li>
+              <li id="foli3" class="notranslate">
+                <label class="desc" id="title3" for="Field3">Message</label>
+                <div>
+                  <textarea id="Field3"
+                    name="Field3"
+                    class="field textarea medium"
+                    spellcheck="true"
+                    rows="10"
+                    cols="50"
+                    tabindex="3"
+                    onkeyup=""
+                    placeholder="Write me a message!">
+                  </textarea>
+                </div>
+              </li>
+              <li class="buttons ">
+                <div>
+                  <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit"/>
+                </div>
+              </li>
+
+              <li class="hide">
+                <label for="comment">Do Not Fill This Out</label>
+                <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                <input type="hidden" id="idstamp" name="idstamp" value="tyRQR9Zn2xyRC+uJxtIehQFEtIjbwAafc6fsdLhgQVE=" />
+              </li>
+            </ul>
+          </form>
+        </div>
+
+        </div>
+      </div>
+
+      <footer class="app-footer grid-x grid-padding-x">
+        &copy; Maryam Hadi 2017
+      </footer>
+    </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/about.js"></script>
+    <!-- JavaScript - Woofoo -->
+    <script src="form/scripts/wufoo.js"></script>
+    <!--[if lt IE 10]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </body>
 </html>

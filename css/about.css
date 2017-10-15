@@ -1,0 +1,29 @@
+.about-content {
+  padding: 16px;
+}
+
+.about-title {
+  font-size: 1.5rem;
+  color: #fcc1bc;
+  margin-bottom: 16px;
+}
+
+.about-description {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+
+.about-button {
+  color: white;
+  background-color: #fcc1bc;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.about-button:hover {
+  color: white;
+}

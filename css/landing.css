@@ -1,0 +1,91 @@
+.landing-image {
+  background: url('../img/landing-background.jpg') center / cover no-repeat;
+  width: 100vw;
+  height: 350px;
+}
+
+.landing-headline {
+  color: white;
+  background-color: #fcc1bc;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.landing-greeting {
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.landing-time {
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.landing-testimonialHeadline {
+  color: white;
+  background-color: #fcc1bc;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.landing-testimonial {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.landing-testimonialNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid purple;
+  border-radius: 100%;
+  color: purple;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.landing-testimonialAuthor {
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 2em;
+}
+
+.landing-portfolioHeadline {
+  color: white;
+  background-color: #fcc1bc;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.landing-portfolioLink {
+  color: white;
+}
+
+.landing-portfolioLink:hover {
+  color: white;
+}
+
+.landing-icon-spacer {
+  display: block;
+}
+
+@media screen and (min-width: 40em) {
+  .landing-icon-spacer {
+    display: none;
+  }
+}
